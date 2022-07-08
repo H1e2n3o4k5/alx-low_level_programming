@@ -1,10 +1,10 @@
 #include "main. h"
+
 /**
  * print_diagonl - prints diagonal line
  * @n: print int
  * Return: 0
  */
-
 void print_diagonal(int n)
 {
 int i;
