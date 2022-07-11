@@ -4,7 +4,7 @@
  * ptint_rev - function that prints a string, in reverse
  * @s: this is input string
  */
-void prini_rev(char *s)
+void print_rev(char *s)
 {
 	int index;
 
