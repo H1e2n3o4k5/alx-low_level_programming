@@ -1,7 +1,7 @@
 #include "main.h"
-
+#include<string.h>
 /**
- * ptint_rev - function that prints a string, in reverse
+ * print_rev - function that prints a string, in reverse
  * @s: this is input string
  */
 void print_rev(char *s)
