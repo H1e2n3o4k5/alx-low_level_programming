@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcmp - Function which compare two strings
  * @s1: firist string
@@ -8,6 +9,7 @@
  *         return negative number if s1 < s2
  *         return positive number if s1 > s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i = 0, diff = 0;
