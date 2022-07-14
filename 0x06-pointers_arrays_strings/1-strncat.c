@@ -6,7 +6,7 @@
  * @n: number of bytes that will be used from src
  * Return: pointer to the resulting string dest
  */
-char *_strncat(char *dest, char *src, intn)
+char *_strncat(char *dest, char *src, int n)
 {
 	int x, y;
 
