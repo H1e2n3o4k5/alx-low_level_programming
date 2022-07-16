@@ -1,29 +1,31 @@
-#include "main. h"
-
+#include "main.h"
 /**
- * print_diagonl - prints diagonal line
- * @n: print int
- * Return: 0
+ * print_diagonal -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ * Return: Always 0.
  */
 void print_diagonal(int n)
 {
-int i;
-int b;
+	int x, y;
 
-if (n > 0)
-{
-for (i = 0; i < n; i++)
-{
-for (b = 0; b < n; b++)
-{
-_putchar(' ');
-}
-_putchar(92);
-_putchar('\n');
-}
-}
-else
-{
-_putchar('\n');
-}
+	if (n > 0)
+	{
+		for (x = 1; x <= n; x++)
+		{
+			for (y = 1; y <= n; y++)
+			{
+				if (x == y)
+				{
+					_putchar(92);
+					break;
+				}
+				_putchar(' ');
+			}
+			_putchar('\n');
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
