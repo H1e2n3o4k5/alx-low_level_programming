@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap_string - function that capitalizes all words of a string
+ * cap_string - function that capitalize first character of a word
  * @str: string to capitalize
  * Return: returns the  capitalized string
  */
@@ -12,6 +12,7 @@ char *cap_string(char *str)
 	{
 		while (!(str[index] >= 'a' && str[index] <= 'z'))
 			index++;
+
 		if (str[index - 1] == ' ' ||
 				str[index - 1] == '\t' ||
 				str[index - 1] == '\n' ||
