@@ -1,28 +1,26 @@
 #include "main.h"
 /**
- * print_square -prints a square
- * @size: print size
- * Return: 0
+ * print_square -  checks for checks for a digit (0 through 9).
+ * @size: size -  Variable
+ * Return: Always 0.
  */
-void Print_square(int size)
+void print_square(int size)
 {
+	int x, y;
 
-int i;
-int k;
-
-if (size > 0)
-{
-for (i = 0; i < size; i++)
-{
-for (k = 0; k < size; k++)
-{
-_putchar(35);
-}
-_putchar('\n')
-}
-}
-else
-{
-_putchar('\n')
-}
+	if (size > 0)
+	{
+		for (x = 1; x <= size; x++)
+		{
+			for (y = 1; y <= size; y++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
