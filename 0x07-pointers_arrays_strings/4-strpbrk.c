@@ -5,7 +5,7 @@
  * @s: source string
  * @accept: accepted characters
  *
- * Return: the string scince the first found accepted character
+ * Return: the string since the first found accepted character
  */
 char *_strpbrk(char *s, char *accept)
 {
