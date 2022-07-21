@@ -11,5 +11,6 @@
 	int _sqrt_recursion(int n);
 	int is_prime_number(int n);
 	int helperFunction(int num, int i);
+	int helperFunction(int num, int pSqrt);
 
 #endif
