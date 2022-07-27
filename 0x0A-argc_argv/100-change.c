@@ -4,7 +4,7 @@
  * main - prints coins left
  * @argc: parameter entry
  * @argv: one number of arguments
- * Return: 0
+ * Return: 0 (sucesses), 1 (Erorr)
  */
 int main(int argc, char *argv[])
 {
