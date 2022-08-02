@@ -5,13 +5,13 @@
  * free_dog - frees memory allocated for a struct dog
  * @d: struct dog to free
  *
- * Return: 0
+ * Return: void
  */
 void free_dog(dog_t *d)
 {
 	if (d == 0)
-		return 0;
+		return;
 	free(d->name);
 	free(d->owner);
 	free(d);
-}	
+}
