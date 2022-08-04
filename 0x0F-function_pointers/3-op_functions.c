@@ -8,7 +8,7 @@
 int op_add(int a, int b)
 {
 	return (a + b);
-}	
+}
 
 /**
  * op_sub - calculates the difference of two integers
@@ -45,7 +45,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - calculates the remainder of the division of two integers
- * @a: first integer 
+ * @a: first integer
  * @b: second integer
  * Return: remainder of a divided b
  */
