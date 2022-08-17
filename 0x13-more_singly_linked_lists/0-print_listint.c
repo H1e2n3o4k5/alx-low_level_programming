@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include "list.h"
-
+#include "lists.h"
 /**
  * print_listint - prints all the elements of a linked list
  * @h: pointer to head of the list
@@ -9,16 +7,13 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	int count = 0;
+	size_t num = 0;
 
-	if (h != NULL)
+	while (h)
 	{
-		while (h)
-		{
-			printf("%d\n", h->n);
-			h - h->next;
-			count++;
-		}
+		printf("%d\n", h->n);
+		num++;
+		h = h->next;
 	}
-	return (count);
+	return (num);
 }
